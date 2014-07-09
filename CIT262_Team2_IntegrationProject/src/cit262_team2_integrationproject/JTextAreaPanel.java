@@ -416,8 +416,8 @@ public class JTextAreaPanel extends JPanel
   public boolean isManagingFocus()
   {
     // Get JTextArea managing focus status.
-    return ta.isManagingFocus();
-
+    //return ta.isManagingFocus();
+      return true;
   } // End of isManagingFocus() wrapper method.
 
   // -------------------------------------------------------------------------/
